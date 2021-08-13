@@ -1,5 +1,5 @@
 resource "spotify_playlist" "playlist" {
-  name        = "Terraform Summer Playlist"
+  name        = "Josh's playlist-as-code"
   description = "This playlist was created by Terraform"
   public      = true
 
