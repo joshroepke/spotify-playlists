@@ -1,6 +1,6 @@
 resource "spotify_playlist" "playlist" {
-  name        = "Josh's playlist-as-code"
-  description = "This playlist was created by Terraform"
+  name        = "playlist-as-code"
+  description = "Created by Terraform - https://github.com/joshroepke/spotify-playlists"
   public      = true
 
   tracks = [
