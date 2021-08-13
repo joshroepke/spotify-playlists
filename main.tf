@@ -19,6 +19,7 @@ resource "spotify_playlist" "playlist" {
     data.spotify_search_track.artist_4.tracks[1].id,
     data.spotify_search_track.artist_4.tracks[7].id,
     data.spotify_search_track.artist_4.tracks[8].id,
+    data.spotify_search_track.artist_4.tracks[0].id,
   ]
 }
 
